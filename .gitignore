@@ -1,0 +1,26 @@
+# Lines starting with '#' are considered comments.
+# Ignore objects and archives.
+*.[oa]
+*.obj
+_ReSharper*
+*.exe
+*.zip
+*.usr
+*.sdf
+*.suo
+ipch
+*.txt
+*.user
+*.tlog
+*.log
+*.pdb
+#rails ignore
+.bundle
+db/*.sqlite3*
+tmp/**/*
+tmp/*
+doc/api
+doc/app
+*.swp
+*~
+.DS_Store
