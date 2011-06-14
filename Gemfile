@@ -19,6 +19,7 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem "spork", ">= 0.9.0.rc"
 end
 # Asset template engines
 gem 'sass-rails', "~> 3.1.0.rc"

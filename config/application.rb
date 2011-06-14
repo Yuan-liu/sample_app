@@ -43,5 +43,10 @@ module SampleApp
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    #if Rails.env.test?
+     # initializer :after => :initialize_dependency_mechanism do
+     #   ActiveSupport::Dependencies.mechanism = :load
+     # end
+    #end
   end
 end
