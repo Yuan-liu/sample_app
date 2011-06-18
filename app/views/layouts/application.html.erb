@@ -3,24 +3,15 @@
 <head>
   <title><%= title %></title>
   <%= csrf_meta_tag %>
-  <%= stylesheet_link_tag 'blueprint/screen.css', :media => 'screen' %>
-  <%= stylesheet_link_tag 'blueprint/print.css', :media => 'print' %>
+  <%= render 'layouts/stylesheets' %>
 </head>
 <body>
   <div class="container">
-    <header>
-    <%= image_tag("logo.png", :alt => "sample app", :class => "round") %>
-    <nav class="round>
-    <ul>
-      <li><%= link_to "Home", '#' %></li>
-      <li><%= link_to "Help", '#' %></li>
-      <li><%= link_to "Sign in", '#' %></li>
-    </ul>
-    </nav>
-    </header> 
-    <secton class="round">
-  <%= yield %>
-  </section>
+  <%= render 'layouts/header' %>
+    <section class="round">
+      <%= yield %>
+      </secton>
 </div>
+      <%= render 'layouts/footer' %>
 </body>
 </html>
