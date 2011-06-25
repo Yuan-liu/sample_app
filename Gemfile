@@ -14,6 +14,7 @@ gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 group :development do
   gem 'rspec-rails'
+  gem 'annotate-models'
 end
 
 group :test do
