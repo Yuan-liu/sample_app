@@ -131,6 +131,7 @@ DEPENDENCIES
   pg
   postgres-pr
   rails (>= 3.1.0.rc2)
+  rake
   rspec
   rspec-rails
   sass-rails (~> 3.1.0.rc)

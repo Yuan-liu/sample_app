@@ -30,6 +30,7 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
+gem 'rake'
 # Use unicorn as the web server
 # gem 'unicorn'
 
