@@ -6,7 +6,7 @@ gem 'rails', '>=3.1.0.rc2'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'gravatar_image_tag' #use paperclip if need to handle images or other file uploads
 gem 'postgres-pr'
 gem 'pg'
 group :production do
@@ -22,6 +22,7 @@ group :test do
   gem 'rspec'
   gem 'webrat'
   gem "spork", ">= 0.9.0.rc"
+  gem 'factory_girl_rails'
 end
 # Asset template engines
 gem 'sass-rails', "~> 3.1.0.rc"
